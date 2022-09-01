@@ -28,9 +28,16 @@
       "plugin:prettier/recommended"
     ]
   },
-  "prettier": {
-    "singleQuote": true
-  },
+  
+  "prettier/prettier": [
+    "error",
+    {},
+    {
+      "fileInfoOptions": {
+        "withNodeModules": true
+      }
+    }
+  ],
   "browserslist": {
     "production": [
       ">0.2%",

@@ -1,7 +1,7 @@
-import React from 'react';
-import { Navbar, Container } from 'react-bootstrap';
+import React from "react";
+import { Navbar, Container } from "react-bootstrap";
 const navbarStyle = {
-  backgroundColor: 'yellow',
+  backgroundColor: "yellow",
 };
 const Header = ({ title }) => {
   return (

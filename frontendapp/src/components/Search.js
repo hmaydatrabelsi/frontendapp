@@ -1,5 +1,5 @@
-import { Container, Row, Col, Button, Form } from 'react-bootstrap';
-import React from 'react';
+import { Container, Row, Col, Button, Form } from "react-bootstrap";
+import React from "react";
 
 const Search = ({ handleSubmit, word, setword }) => {
   return (
@@ -30,3 +30,4 @@ const Search = ({ handleSubmit, word, setword }) => {
 };
 
 export default Search;
+s;
